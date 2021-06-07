@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.idgenerator.snowflake.DataCenterConfig,\
+  com.github.idgenerator.snowflake.SnowFlake,\
+  com.github.idgenerator.snowflake.SnowFlakeIdGenerator
+
+org.springframework.context.ApplicationListener=\
+  com.github.idgenerator.listenner.InitingListenner
